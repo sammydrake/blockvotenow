@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className=" flex justify-between items-center p-5 shadow-md shadow-gray-300 ">
       <Link to="/" className="font-bold text-2xl">
-        <span className="text-blue-700">Blue</span>Votes
+        <span className="text-blue-700">Grand</span>Vote
       </Link>
 
       <ConnectButton />
