@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="text-center mt-10 p-4">
       <h1 className="text-5xl text-black-600 font-bold">
         {" "}
-        Open Voting platform <span className="text-blue-600">For all</span>
+        Open Voting Platform <span className="text-blue-600">For All</span>
       </h1>
       <p className="pt-5 text-gray-600 text-xl font-medium">
         {" "}

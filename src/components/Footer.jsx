@@ -53,7 +53,7 @@ const Footer = () => {
         className="flex flex-col justify-center items-center text-center p-4"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        © 2022
+        © 2023
         <a
           className="flex space-x-2 text-whitehite"
           href="https://grandvote.com/"
