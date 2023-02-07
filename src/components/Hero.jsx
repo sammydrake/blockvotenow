@@ -17,7 +17,6 @@ const Hero = () => {
       {
         pending: "Signing in...",
         success: "Logged in successful 👌",
-        error: "Encountered error 🤯",
       }
     );
   };
