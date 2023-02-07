@@ -1,5 +1,5 @@
 import { toast } from "react-toastify";
-import { loginWithCometChat } from "../Chat.services";
+//import { loginWithCometChat } from "../Chat.services";
 import { setGlobalState, useGlobalState } from "../store/index";
 
 const Hero = () => {
