@@ -1,6 +1,6 @@
 import { toast } from "react-toastify";
 //import { loginWithCometChat } from "../Chat.services";
-import { setGlobalState, useGlobalState } from "../store/index";
+import { setGlobalState, useGlobalState } from "../store";
 
 const Hero = () => {
   const [user] = useGlobalState("user");
@@ -17,6 +17,7 @@ const Hero = () => {
       {
         pending: "Signing in...",
         success: "Logged in successful 👌",
+        error: "Encountered error 🤯",
       }
     );
   };
